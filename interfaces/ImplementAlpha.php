@@ -3,16 +3,19 @@ include_once('IMethodHolder.php');
 
 class ImplementAlpha implements IMethodHolder
 {
+    //getInfo method from the IMethodHolder interface
     public function getInfo($info)
     {
-        echo "This is NEWS!" . $info . "<br />";
+        echo "This is NEWS! " . $info . "<br />";
     }
 
+    //sendInfo method from the IMethodHolder interface
     public function sendInfo($info)
     {
         return $info;
     }
 
+    //calculate method from the IMethodHolder interface
     public function calculate($first, $second)
     {
         $calculated = $first * $second;
