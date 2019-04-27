@@ -2,9 +2,9 @@
 interface IConnectInfo
 {
     const HOST = "localhost";
-    const UNAME = "phpWorker";
+    const UNAME = "designpattern";
     const DBNAME = "dbinterface";
-    const DBPASS = "easyWayPassword";
+    const DBPASS = "easywaypassword";
 
     function Connection();
 }
